@@ -31,7 +31,7 @@ module.exports = class BotPlayer extends PlayerTracker {
     this.food = [];
     this.rbuffer = 10;
     this.isBot = true;
-    this.foodImportant = []; // Not used - Bots will attempt to eat this regardless of nearby prey/predators
+    this.foodImportant = [10]; // Not used - Bots will attempt to eat this regardless of nearby prey/predators
     this.virus = []; // List of viruses
     this.teamingwith = []; // player teamingwith
     this.teamStage = 0; // stage of teaming. 0 = off, 1 = init (shaking and giving mass), 2 = teamenabled, 3 = betrayal
